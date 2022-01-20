@@ -1,0 +1,34 @@
+{
+   "solution": {
+    "name": "spfx-extension-ie-11-warning-client-side-solution",
+    "id": "b05d785f-e065-4021-a11e-e116632ebf08",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.13.1"
+    },
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "c6b18c9e-66a6-40a5-96e4-191a12d0d409",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-extension-ie-11-warning.sppkg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ie-11-warning-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/ie11Warning/Ie11WarningApplicationCustomizer.js",
+          "manifest": "./src/extensions/ie11Warning/Ie11WarningApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "Ie11WarningApplicationCustomizerStrings": "lib/extensions/ie11Warning/loc/{locale}.js"
+  }
+}

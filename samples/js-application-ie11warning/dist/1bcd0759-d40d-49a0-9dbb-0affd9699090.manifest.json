@@ -1,0 +1,45 @@
+{
+  "id": "1bcd0759-d40d-49a0-9dbb-0affd9699090",
+  "alias": "Ie11WarningApplicationCustomizer",
+  "componentType": "Extension",
+  "extensionType": "ApplicationCustomizer",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/dist/"
+    ],
+    "entryModuleId": "ie-11-warning-application-customizer",
+    "scriptResources": {
+      "ie-11-warning-application-customizer": {
+        "type": "path",
+        "path": "ie-11-warning-application-customizer_924ef59f27273cd7d52f.js"
+      },
+      "@microsoft/sp-application-base": {
+        "type": "component",
+        "id": "4df9bb86-ab0a-4aab-ab5f-48bf167048fb",
+        "version": "1.13.1"
+      },
+      "@microsoft/sp-lodash-subset": {
+        "type": "component",
+        "id": "73e1dc6c-8441-42cc-ad47-4bd3659f8a3a",
+        "version": "1.13.1"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b",
+        "version": "1.13.1"
+      },
+      "Ie11WarningApplicationCustomizerStrings": {
+        "type": "path",
+        "path": "Ie11WarningApplicationCustomizerStrings_en-us_f4870aa0fe01395f71394a95538a2055.js"
+      },
+      "@microsoft/decorators": {
+        "type": "component",
+        "id": "f97266fb-ccb7-430e-9384-4124d05295d3",
+        "version": "1.13.1"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://gsfsas.sharepoint.com/SitePages/StyleC.aspx",
+      "customActions": {
+        "1bcd0759-d40d-49a0-9dbb-0affd9699090": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "ie11Warning": {
+      "pageUrl": "https://gsfsas.sharepoint.com/SitePages/StyleC.aspx",
+      "customActions": {
+        "1bcd0759-d40d-49a0-9dbb-0affd9699090": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
